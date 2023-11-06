@@ -41,14 +41,23 @@ body {
 h1 {
   color: white;
 }
-.recipe-info-img {
-  width: 70%;
-  align-items: center;
-}
+
 h3 {
   font-weight: 400;
+  margin-top: 3vh;
   margin-bottom: 2.5vh;
 }
+
+.recipe-info-img {
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.cooking-info-img {
+  width: 60%;
+  margin-top: 30px;
+}
+
 
 .container {
   width: 100%;
@@ -66,12 +75,21 @@ h3 {
 }
 
 .recipe-info-container {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
+.cooking-info-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
 
 li {
   list-style-type: none;
+}
+
+.directions-container {
+  margin-bottom: 10vh ;
 }
